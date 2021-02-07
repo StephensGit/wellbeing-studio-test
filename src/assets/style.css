@@ -1,0 +1,593 @@
+/* UNIVERSAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+h1 {
+    font-size: 3.75rem;
+    color: #3e4a5e;
+}
+h2, h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-bottom: 15px;
+    margin:0;
+    color: #3e4a5e;
+}
+h2 {
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+}
+p {
+    font-size: 0.9rem;
+    font-weight: 200;
+    margin: 0;
+    color: #333;
+}
+/* LINKS */
+.row1-right-col-link, .row3-left-col-link {
+    color: #e8008a;
+    font-weight: bold;
+    border-bottom: solid;
+    padding-top: 0.9rem;
+    font-size: 1rem;
+}
+.row1-right-col-link {
+    float: right;
+}
+.row3-left-col-link {
+    float: left;
+    margin-bottom: 30px;
+}
+.row2-cards-more-info {
+    background-color: #e1298a;
+    border-radius: 25px 0 0 0;
+    display: block;
+    clear: both;
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    color: #fff;
+    padding: 0.6rem;
+    font-size: 0.9rem;
+}
+.row2-cards a {
+    color: #ffffff;
+}
+a:hover, a:link {
+    text-decoration: none;
+    color: #e8008a;
+}
+
+/* NAVIGATION */
+nav {
+    font-size: 0.8rem;
+    right: -15px;
+    background: linear-gradient(-45deg, #e8e8e8, #e8e8e8 85%, white 15%, white );
+    background: linear-gradient(-45deg, #543d6b, #543d6b 65%, white 15%, white );
+}
+.navbar-light .navbar-nav .nav-link {
+    color :#fff;
+}
+li {
+    padding: 10px 0 10px 30px;
+}
+li:last-child {
+    padding-right: 50px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    /* font-weight: bold; */
+}
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #fff;
+    /* font-weight: bold; */
+}
+.nav-link-plans a:hover, a:link {
+    text-decoration: none;
+    color: #fff;
+}
+.nav-link-events a:hover, a:link {
+    text-decoration: none;
+    color: #fff;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+/* ROW-1 */
+.row {
+    padding-left: 65px;
+    padding-right: 65px;
+}
+.row1 {
+    border-top: 4px solid #e8e8e8;
+    background-color: #f4f4f4;
+    padding: 0 15px 0 15px;
+}
+.row1-left-col {
+    position: relative;
+    padding: 30px 0 120px 65px;
+}
+.one {
+    position: relative;
+    margin-top: 140px;
+}
+.one h1 {
+    top: -80px;
+    left: 25px;
+    font-size: 3.75rem;
+    font-weight: bold;
+}
+.two h1{
+    text-align: right;
+    position: absolute;
+    top: 10px;
+    left: 135px;
+    font-weight: 100;
+    font-size: 60px;
+}
+.row1 h1 {
+    line-height: 40px;
+}
+.row1-h1-fullstop {
+    color: red;
+    font-weight:bolder;
+}
+.firstWord {
+    padding: 15px 5px;
+}
+.two {
+    position: relative;
+    margin-top: -80px;
+    left: -1px;
+  }
+.secondWord {
+    padding: 0 5px 15px 0;
+    margin-top: -15px;
+}
+
+/* BORDERS */
+.corner-border, .bottom-corner {
+    position: relative;
+}
+/* vertical line */
+.corner-border::after {
+    content:'';
+    position: absolute;
+    background-color: #3e4a5e;
+    width: 3px;
+    height: 35px;
+    top: 2px;
+    left: -20px;   
+}
+/* horizontal line */
+.corner-border::before{
+    content:'';
+    position: absolute;
+    background-color: #3e4a5e;
+    width: 35px;
+    height: 3px;
+    top: 2px;
+    left: -20px;
+}
+/* horizontal line */
+.bottom-corner::before {
+    content:'';
+    position: absolute;
+    background-color: #3e4a5e;
+    width: 35px;
+    height: 3px;
+    bottom: -8px;
+    right: -20px;
+}
+/* vertical line */
+.bottom-corner::after {
+    content:'';
+    position: absolute;
+    background-color: #3e4a5e;
+    width: 3px;
+    height: 35px;
+    bottom: -8px;
+    right: -20px;
+}
+/* ROW-1 RIGHT COLUMN */
+.row1-right-col {
+    word-break:break-all;
+    padding: 0 65px 30px 15px;
+    text-align: left;
+    align-self: flex-end;
+}
+
+/* ROW-2 VIRTUAL EVENTS */
+/* ROW 2 -- VIRTUAL EVENTS */
+.row2 {
+    margin-top: 40px;
+    /* width: 90%; */
+}
+.row4 {
+    margin-top: 56px;
+    /* width: 90%; */
+}
+.row2 h3, .row-3-h3, .row4 h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+}
+.row2-hr, .row4-hr {
+    border-top: 1px solid #e5e5e5;
+    margin-top: 13px;
+    padding-left: 0;
+    right: 15px;
+}
+.row2-p {
+    letter-spacing: .04rem;
+    font-size: 0.938rem;
+    font-weight: 200;
+}
+.row2-cards{
+    background-color: #543d6b;
+    height: 137px;
+    border-radius: 10px 10px 0 10px;
+}
+
+.row2-cards h5 {
+    letter-spacing: .06rem;
+    float: left;
+    align-self: flex-start;
+    font-size: 1rem;
+    line-height: 20px;
+    font-weight: 200;
+    color: #ffffff;
+}
+.row2-cards-date {
+    /* display: block; */
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    font-size: 2.813rem;
+    color: #fff;
+    font-weight: 200;
+}
+.row2-cards-month {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    position: absolute;
+    top: 54px;
+    right: 25px;
+    color: #fff;
+    /* display: block; */
+    font-weight: 100;
+    float: right;
+}
+.row2-cards-more-info {
+    background-color: #e1298a;
+    border-radius: 25px 0 0 0;
+    display: block;
+    clear: both;
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    color: #fff;
+    padding: 0.6rem;
+    font-size: 14px;
+}
+.row2-cards a {
+    /* text-decoration: none; */
+    color: #ffffff;
+}
+
+/* ROW-3 LEARNING */
+.row3 {
+    background-color: #f4f4f4;
+}
+.row3-left-col-link {
+    color: #e8008a;
+    float: left;
+    font-weight: bold;
+    border-bottom: solid;
+    padding-top: 15px;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+.row3 .course-title{
+    font-size: 1.125rem;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.row3-right-col {
+    text-align: center;
+}
+.row-3-image {
+    /* display: block; */
+    width: 268px;
+    position: relative;
+    top: 60px;
+}
+
+/* ROW-4 DOWNLOAD GUIDES */
+.row-4 {
+    text-align: center;
+}
+.row-4 p {
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 18px;
+}
+.row-4-pdf-link {
+    color: #e8008a;
+    font-weight: bold;
+}
+
+.row4 .card {
+    text-align: center;
+    border: none;
+}
+.row4 .card-body {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ROW-5 FOOTER */
+.row-5 {
+    height: 124px;
+    background-color: #f1f1f1;
+    font-size: 0.8rem;
+    color: #6b6b6b;
+    letter-spacing: 0.2rem;
+    margin-top: 140px;
+}
+.footer {
+    /* vertically align */
+    align-content: center;
+}
+
+/* EVENTSHEADER PAGE */
+.eventsheader-row1-left-col {
+    padding: 60px 65px;
+}
+.wellbeing-image {
+    width: 100%;
+}
+.eventsheader-row1-right-col {
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    justify-content: center;
+    /* padding-bottom: 60px; */
+}
+
+@media only screen and (max-width: 1200px) {
+    nav {
+        background: linear-gradient(-45deg, #543d6b, #543d6b 75%, white 15%, white );
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    body {
+        /* background: BLUE; */
+    }
+    li {
+        padding: 10px 0 10px 0;
+    }
+    li:last-child {
+        padding-right: 50px;
+    }
+    nav {
+        background: linear-gradient(-45deg, #543d6b, #543d6b 75%, white 15%, white );
+    }
+    .row1-left-col {
+        position: relative;
+        padding: 0 0 100px 65px;
+    }
+    .row1-right-col {
+        padding: 0 65px 30px 65px;
+    }
+    .row2-cards h5 {
+        font-size: 0.875rem;
+    }
+    .row2-cards-date {
+        font-size: 2.5rem;
+    }
+    .row2-p {
+        padding-top: 20px;
+    }
+    footer {
+      text-align: center;
+    }
+
+    .eventsheader-row1-right-col {
+        padding-bottom: 60px;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    body {
+        /* background: orange; */
+    }
+    nav {
+        left: -10px;
+        background: transparent;
+    }
+    li {
+        padding: 5px;
+        padding-bottom: 0;
+        margin: 0;
+        /* color: #543d6b; */
+    }
+    .router-link-exact {
+        color :#543d6b;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color :#543d6b;
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #543d6b;
+    }
+    .nav-link-events, .nav-link-plans {
+        color: #543d6b;
+    }
+    .nav-link-plans a:hover, a:link {
+        color: #543d6b;
+    }
+    .nav-link-events a:hover, a:link {
+        color: #543d6b;
+    }
+    .row-3-image {
+        padding-bottom: 40px;
+        top: 0;
+    }
+    .row4-hr {
+        border-top: none;
+    }
+    .hr-sm {
+        border-bottom: 1px solid #e5e5e5;
+        margin-bottom: 25px;
+        left: 15px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .one h1 {
+        top: -80px;
+        left: 25px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .two h1 {
+        text-align: right;
+        position: absolute;
+        top: -10px;
+        left: 100px;
+        font-weight: 100;
+        font-size: 2.5rem;
+    }
+    .row1-left-col {
+        position: relative;
+        padding: 0 0 80px 65px;
+    }
+    .row4-hr {
+        border-top: none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .hr-sm {
+        left: -1px;
+    }
+    /* EVENTS HEADER PAGE */
+    .eventsheader-row1-left-col {
+        padding: 30px 35px;
+    }
+    .wellbeing-image {
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 410px) {
+    .row2-cards-date, .row2-cards-month {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .row {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .one h1 {
+        top: -80px;
+        left: 5px;
+    }
+    .row1-right-col {
+        padding: 0 15px 30px 15px;
+    }
+    .row1-left-col {
+        position: relative;
+        padding: 0 0 80px 65px;
+    }
+    .two h1 {
+        text-align: right;
+        position: absolute;
+        top: -10px;
+        left: 70px;
+        font-weight: 100;
+        font-size: 2.5rem;
+    }
+    .bottom-corner::before {
+        content: '';
+        position: absolute;
+        background-color: #212529;
+        width: 35px;
+        height: 3px;
+        bottom: -2px;
+        right: -20px;
+    }
+    .bottom-corner::after {
+        content: '';
+        position: absolute;
+        background-color: #212529;
+        width: 3px;
+        height: 35px;
+        bottom: -2px;
+        right: -20px;
+    }
+    .row2-cards-date, .row2-cards-month {
+        display: none;
+    }
+    .row2 h3, .row-3-h3, .row4 h3 {
+        padding-bottom: 10px;
+    }
+    .row4 h3 {
+    font-size: 0.9rem;
+    }
+    .mt-5, .my-5 {
+        margin-top: 2rem!important;
+    }
+    .float-right {
+        /* float: none; */
+        padding-left: 60px;
+    }
+
+        /* EVENTS HEADER PAGE */
+        .eventsheader-row1-left-col {
+            padding: 20px 15px;
+        }
+        .wellbeing-image {
+            width: 100%;
+        }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .row {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .row1-right-col {
+        padding: 0 15px 30px 15px;
+    }
+    .row1-left-col {
+        position: relative;
+        padding: 0 0 80px 40px;
+    }
+    .row2 h3, .row-3-h3, .row4 h3 {
+        padding-bottom: 10px;
+        margin-left: auto;
+    }
+
+}
+
+
+
+
+
+
+
