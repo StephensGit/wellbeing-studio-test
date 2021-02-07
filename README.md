@@ -1,24 +1,15 @@
 # wellbeing-studio-test
 
 ## Project setup
-```
-yarn install
-```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Below is instructions to get the application running locally on your own computer:
 
-### Compiles and minifies for production
-```
-yarn build
-```
+### Use git clone to clone the applications repository
 
-### Lints and fixes files
-```
-yarn lint
-```
+* cd [repository-directory]
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* yarn install
+
+* yarn serve
+
+### The application will start by in your default browser of choice after these instructions
