@@ -28,8 +28,8 @@ The challenge was to create a fully responsive 2-page application using Vue-CLI 
 
 ### Screenshot - Item Page
 ![Desktop - Wellbeing studio]
-((https://user-images.githubusercontent.com/45046901/132248574-fb3f1c82-79ae-4054-8c4f-b5cf4b03d1ed.png)
-)
+(https://user-images.githubusercontent.com/45046901/132248574-fb3f1c82-79ae-4054-8c4f-b5cf4b03d1ed.png)
+
 
 ## My process
 
