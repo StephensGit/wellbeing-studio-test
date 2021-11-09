@@ -41,7 +41,6 @@ The challenge was to create a fully responsive 2-page application using Vue-CLI 
 
 ## Author
 
-- Website - [Stephen Moran](https://www.stephenmoran.ie)
 - Linkedin - [Stephen Moran](https://www.linkedin.com/in/stephen-moran-/)
 - Github - [StephensGit](https://github.com/StephensGit)
 
